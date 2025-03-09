@@ -16,7 +16,7 @@ Bug hunting tools
 - Enter the domain name to scan
 - Wait for the execution to complete
 ### Windows 
-- Run the programs by folowing the [tutorials](#Python)
+- Run the programs by following the [tutorials](#Python)
 ## Step4: Analyze
 - Click on the urls which seems diverse and look for vulnerabilities (while taking the scope into consideration!)
 - Use ai chatbots like grok.com and chat.deepseek.com if necessary
@@ -49,4 +49,4 @@ Outcome: A set of files (subdomains.txt, httpx.txt, allurls.txt, js.txt, mantra.
 3. ```github_dorking.py ``` => Makes use of [github api](https://github.com/settings/tokens) to perform dorking (Edit the TOKEN variable to the token created from github "with repo permissions only" or manually enter when propted)
 ---
 # OSINT
-- [ODIN](https://odin.io/) Find exposed buckets and files
+- [ODIN](https://odin.io/): Find exposed buckets and files
