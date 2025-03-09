@@ -32,9 +32,9 @@ Bug hunting tools
 ### Step 5: Manually or automatically analyze the results for vulnerabilities (e.g., exposed reset tokens).
 This process is often called a "reconnaissance pipeline" or "attack surface mapping" in security contexts, as it systematically builds a picture of the target’s exposed assets and potential weaknesses.
 ***
-```init2.sh ``` > ```proced2.sh ``` 
-Used to Build a comprehensive map of the target domain’s attack surface focusing on javascript and secrets
-
+```init2.sh ``` > ```proced2.sh ```
+--- Used to Build a comprehensive map of the target domain’s attack surface focusing on javascript and secrets 
+---
 ### Step 1: Enumerate subdomains (subfinder, assetfinder).
 ### Step 2: Identify live hosts (httpx-pd).
 ### Step 3: Crawl for endpoints (katana, gospider, waybackurls).
