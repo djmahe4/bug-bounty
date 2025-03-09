@@ -18,4 +18,11 @@ Bug hunting tools for linux users
 - Report the vulnerabilities through bug bounty platforms or direct contact
 
 ## Traces
-``` ```
+```init1.sh ``` > ```proced1.sh ``` 
+### Step 1: Use subfinder, assetfinder, amass, and curl with crt.sh to gather subdomains (passive recon).
+### Step 2: Filter and deduplicate with jq, sed, sort, and tee.
+### Step 3: Verify live subdomains with httpx (active recon).
+### Step 4: Enumerate endpoints with katana and waybackurls (mixed recon).
+### Step 5: Manually or automatically analyze the results for vulnerabilities (e.g., exposed reset tokens).
+This process is often called a "reconnaissance pipeline" or "attack surface mapping" in security contexts, as it systematically builds a picture of the target’s exposed assets and potential weaknesses.
+--
