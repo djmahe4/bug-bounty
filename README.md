@@ -16,7 +16,7 @@ Bug hunting tools
 - Enter the domain name to scan
 - Wait for the execution to complete
 ### Windows 
-- Run the programs by folowing the [tutorials]()
+- Run the programs by folowing the [tutorials](#Python)
 ## Step4: Analyze
 - Click on the urls which seems diverse and look for vulnerabilities (while taking the scope into consideration!)
 - Use ai chatbots like grok.com and chat.deepseek.com if necessary
