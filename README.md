@@ -31,7 +31,17 @@ Bug hunting tools
 ### Step 4: Enumerate endpoints with katana and waybackurls (mixed recon).
 ### Step 5: Manually or automatically analyze the results for vulnerabilities (e.g., exposed reset tokens).
 This process is often called a "reconnaissance pipeline" or "attack surface mapping" in security contexts, as it systematically builds a picture of the target’s exposed assets and potential weaknesses.
----
+***
+```init1.sh ``` > ```proced1.sh ``` 
+Goal: Build a comprehensive map of the target domain’s attack surface.
+Steps:
+Enumerate subdomains (subfinder, assetfinder).
+Identify live hosts (httpx-pd).
+Crawl for endpoints (katana, gospider, waybackurls).
+Consolidate and deduplicate URLs (anew).
+Focus on JavaScript files (grep, mantra) for deeper analysis.
+Outcome: A set of files (subdomains.txt, httpx.txt, allurls.txt, js.txt, mantra.txt) containing potential targets for manual or automated exploitation.
+***
 ## Python
 1. ```wapp_vuln.py ``` => Enter the url to perform fingerprinting and vulnerabilty lookup using vulners.com
 2. ```dorking.py ``` => Enter the url to perform dorking using bing
