@@ -1,7 +1,7 @@
 echo "Enter domain url"
 read dom
 subfinder -d $dom | tee subdomains.txt
-assetfinder --subs-only $dom | tee -a subdomains.txt
+#assetfinder --subs-only $dom | tee -a subdomains.txt
 cat subdomains.txt | httpx-pd -o httpx.txt
 katana -u httpx.txt -o katana.txt
 cat httpx.txt | waybackurls >> wayback.txt
