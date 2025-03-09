@@ -25,4 +25,4 @@ Bug hunting tools for linux users
 ### Step 4: Enumerate endpoints with katana and waybackurls (mixed recon).
 ### Step 5: Manually or automatically analyze the results for vulnerabilities (e.g., exposed reset tokens).
 This process is often called a "reconnaissance pipeline" or "attack surface mapping" in security contexts, as it systematically builds a picture of the target’s exposed assets and potential weaknesses.
---
+---
