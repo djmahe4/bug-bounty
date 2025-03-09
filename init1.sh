@@ -15,7 +15,7 @@ fi
 
 echo "Installing httpx..."
 go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
-mv /usr/local/bin/httpx /usr/local/bin/httpx-pd
+mv /go/bin/httpx /usr/local/bin/httpx-pd
 
 # Set GOBIN to /usr/local/bin for Go-based tools
 export GOBIN=/usr/local/bin
