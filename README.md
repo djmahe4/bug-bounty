@@ -1,7 +1,7 @@
 # bug-bounty
 Bug hunting tools for linux users
 ## Step1: Download
-- Use ```git clone https://github.com/djmahe4/bug-bounty/" ```
+- Use ```git clone https://github.com/djmahe4/bug-bounty/ ```
 - Go to bug-bounty folder using```cd bug-bounty ```
 - Give execute permissions ```chmod +x * ```
 ## Step2: Initialize
