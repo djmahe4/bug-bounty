@@ -5,7 +5,7 @@ Bug hunting tools
 - Go to bug-bounty folder using```cd bug-bounty ```
 - Give execute permissions ```chmod +x * ```
 ### Windows
-- For windows users go to ```/Python ``` directory
+- Windows users go to ```/Python ``` directory
 ## Step2: Initialize
 - Execute shellcodes that begins with 'init' to initialize the 'proced' shell code
 - Wait for download to complete
@@ -16,7 +16,7 @@ Bug hunting tools
 - Enter the domain name to scan
 - Wait for the execution to complete
 ### Windows 
-- Run the programs by folowing the tutorials
+- Run the programs by folowing the [tutorials]()
 ## Step4: Analyze
 - Click on the urls which seems diverse and look for vulnerabilities (while taking the scope into consideration!)
 - Use ai chatbots like grok.com and chat.deepseek.com if necessary
