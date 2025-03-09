@@ -13,6 +13,10 @@ if ! command -v go &> /dev/null; then
     apt install -y golang
 fi
 
+echo "Installing httpx..."
+go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
+mv /usr/local/bin/httpx /usr/local/bin/httpx-pd
+
 # Set GOBIN to /usr/local/bin for Go-based tools
 export GOBIN=/usr/local/bin
 
@@ -31,9 +35,6 @@ go install -v github.com/projectdiscovery/katana/cmd/katana@latest
 
 echo "Installing waybackurls..."
 go install -v github.com/tomnomnom/waybackurls@latest
-
-echo "Installing httpx..."
-go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 
 # Install jq if not present
 if ! command -v jq &> /dev/null; then
