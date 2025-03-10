@@ -24,6 +24,9 @@ Bug hunting tools
 - Report the vulnerabilities through bug bounty platforms or direct contact
 
 ## Traces
+--
+Note!: Please run ```rm *.txt``` after the 'proced' file is executed so that 'tee' commands wont be affected..
+--
 ```init1.sh ``` > ```proced1.sh ``` 
 :OSINT-driven reconnaissance with active probing for asset enumeration and vulnerability discovery
 ### Step 1: Use subfinder, assetfinder, amass, and curl with crt.sh to gather subdomains (passive recon).
