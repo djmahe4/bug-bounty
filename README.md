@@ -50,7 +50,8 @@ Outcome: A set of files (subdomains.txt, httpx.txt, allurls.txt, js.txt, mantra.
 1. ```wapp_vuln.py ``` => Enter the url to perform fingerprinting and vulnerabilty lookup using vulners.com
 2. ```dorking.py ``` => Enter the url to perform dorking using bing
 3. ```github_dorking.py ``` => Makes use of [github api](https://github.com/settings/tokens) to perform dorking (Edit the TOKEN variable to the token created from github "with repo permissions only" or manually enter when prompted)
-4. ```xss_check.py``` => performs a basic xss scan using BeautifulSoup and suggest payloads
+4. ```xss_check.py``` => Performs a basic xss scan using BeautifulSoup, requests and suggest xss payloads
+5. ```403_bypass.py``` => Executes  403 (Forbidden) bypass techniques using requests module
 ---
 # OSINT
 - [ODIN](https://odin.io/): Find exposed buckets and files

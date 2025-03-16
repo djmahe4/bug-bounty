@@ -1,3 +1,10 @@
+#To make wappalyzer work, run
+"""
+```commandline
+python -m pip install --user pipx
+pipx install wappalayzer
+```
+"""
 from Wappalyzer import Wappalyzer, WebPage
 wappalyzer = Wappalyzer.latest()
 url=input("Enter url:")
