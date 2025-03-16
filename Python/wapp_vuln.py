@@ -14,7 +14,7 @@ print(tools)
 for tool in tools:
     try:
         print(tool,tools[tool]['versions'][0],tools[tool]['categories'][0])
-    except KeyError:
+    except (KeyError,IndexError):
         print(tool)
     t=""
     for i in tool.split():
