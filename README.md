@@ -59,3 +59,9 @@ Outcome: A set of files (subdomains.txt, httpx.txt, allurls.txt, js.txt, mantra.
 # Other Usefull Links
 - [Browser Extensions](https://omarora1603.medium.com/top-11-bug-bounty-extensions-that-will-save-you-hours-bea31a368529)
 - [Url Scanner](https://cyscan.io/)
+# SQL Injection
+- **Basic SQL Injection**: Explains simple payloads like ' OR '1'='1 to bypass login forms by making the query always return true.
+- **Union-Based SQL Injection**: Shows how to use UNION to extract data from other tables, e.g., ' UNION SELECT database(), user(), version() --.
+- **Error-Based SQL Injection**: Demonstrates using errors to reveal database info, like ' OR 1=CONVERT(int, (SELECT @@version)) --.
+- **Blind SQL Injection**: Covers cases where no direct output is shown, using techniques like IF(1=1, SLEEP(5), 0) to infer data via delays.
+- **Common Payloads**: Lists examples such as ' DROP TABLE users -- or ' AND SUBSTRING((SELECT database()),1,1)='a'.
