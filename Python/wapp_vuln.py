@@ -19,4 +19,5 @@ for tool in tools:
     t=""
     for i in tool.split():
         t+=i+"%20"
-    print(f"https://vulners.com/search?query={t}")
+    #print(f"https://vulners.com/search?query={t}")
+    print(f"https://www.exploit-db.com/search?q={t}")
