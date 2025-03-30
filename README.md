@@ -46,6 +46,10 @@ This process is often called a "reconnaissance pipeline" or "attack surface mapp
 ### Step 5: Focus on JavaScript files (grep, mantra) for deeper analysis.
 Outcome: A set of files (subdomains.txt, httpx.txt, allurls.txt, js.txt, mantra.txt) containing potential targets for manual or automated exploitation.
 ***
+--
+***
+```./ip.sh```: Used to find the ip address of the domain 
+***
 ## Python
 1. ```wapp_vuln.py ``` => Enter the url to perform fingerprinting and vulnerabilty lookup using vulners.com
 2. ```dorking.py ``` => Enter the url to perform dorking using bing
