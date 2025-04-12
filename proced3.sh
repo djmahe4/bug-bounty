@@ -1,3 +1,5 @@
+#Coded by Zlatan H
+
 echo 'Enter domain name'
 read domain
 subfinder -d ${domain} -all -recursive subdomain.txt
