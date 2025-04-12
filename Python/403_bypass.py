@@ -1,5 +1,6 @@
 import requests
 import time
+import random
 
 domain=input("Enter domain:")
 #urls=[]
@@ -9,7 +10,9 @@ with open("403_bypass.txt","r") as file:
 for url in urls:
     #print(f"https://{domain}/"+"/".join(url.split("/")[1:]))
     e_url=f"https://{domain}"+"/".join(url.split("/")[1:])
+    wait=random.randint(2,7)
+    time.sleep(wait)
     response=requests.get(e_url)
     if response.status_code==200:
         print(f"SUCCESS!: {e_url}")
-    time.sleep(1)
+    #time.sleep(1)
