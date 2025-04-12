@@ -47,7 +47,14 @@ This process is often called a "reconnaissance pipeline" or "attack surface mapp
 Outcome: A set of files (subdomains.txt, httpx.txt, allurls.txt, js.txt, mantra.txt) containing potential targets for manual or automated exploitation.
 ***
 ```proced3.sh``` 
-:Bug hunting methodology devoloped by [Zlatan H](https://www.linkedin.com/in/zlatanh)
+:Bug hunting methodology devoloped by [Zlatan H](https://www.linkedin.com/in/zlatanh).
+```
+'"><svg/onload=prompt(5);>{{7*7}}" ==> for Sql injection
+
+"><svg/onload=prompt(5);> ==> for XSS
+
+{{7*7}} ==> for SSTI/CSTI
+```
 ***
 ```./ip.sh```: Used to find the ip address of the domain 
 ***
