@@ -68,6 +68,7 @@ Outcome: A set of files (subdomains.txt, httpx.txt, allurls.txt, js.txt, mantra.
 # OSINT
 - [ODIN](https://odin.io/): Find exposed buckets and files
 - [Webscout](https://webscout.io/): IP address scanner
+- [jimpl](https://jimpl.com): Image metadata extractor (upload profile pic and copypaste url)
 # Other Usefull Links
 - [Browser Extensions](https://omarora1603.medium.com/top-11-bug-bounty-extensions-that-will-save-you-hours-bea31a368529)
 - [Url Scanner](https://cyscan.io/)
