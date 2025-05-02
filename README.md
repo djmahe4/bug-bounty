@@ -70,6 +70,7 @@ Outcome: A set of files (subdomains.txt, httpx.txt, allurls.txt, js.txt, mantra.
 - [Webscout](https://webscout.io/): IP address scanner
 - [jimpl](https://jimpl.com): Image metadata extractor (upload profile pic and copypaste url)
 # Other Usefull Links
+- [Getting Started in Bug Bounty](https://medium.com/@Abhijeet_kumawat_/how-to-start-bug-bounty-in-2025-no-experience-no-problem-89adc68da592?sk=849ceed06612d3111a50f200cd156b1a)
 - [Browser Extensions](https://omarora1603.medium.com/top-11-bug-bounty-extensions-that-will-save-you-hours-bea31a368529)
 - [Url Scanner](https://cyscan.io/)
 - [Web3 Block Explorer](https://dashboard.tenderly.co/explorer)
