@@ -55,6 +55,7 @@ Outcome: A set of files (subdomains.txt, httpx.txt, allurls.txt, js.txt, mantra.
 
 {{7*7}} ==> for SSTI/CSTI
 ```
+---
 ```init4.sh ``` > ```proced4.sh ```
 : Makes use of Prototype Pollution vulnerability in JavaScript that allows an attacker to manipulate an object's prototype and change the behavior of the entire application. Since JavaScript objects inherit properties from their prototype, modifying the prototype affects all instances of that object type.
 ### Step 1: Enumerates subdomains using subfinder.
@@ -69,7 +70,6 @@ Outcome: A set of files (subdomains.txt, httpx.txt, allurls.txt, js.txt, mantra.
 
 ### Step 6: Performs dynamic testing for vulnerabilities like Prototype Pollution.
 [Blog link](https://kongsec.medium.com/js-for-bug-bounties-2-0-extreme-edition-2024-f167fa48276a)
----
 ***
 ```./ip.sh```: Used to find the ip address of the domain 
 ***
