@@ -96,6 +96,8 @@ Outcome: A set of files (subdomains.txt, httpx.txt, allurls.txt, js.txt, mantra.
 - [NahamSec](https://www.youtube.com/@NahamSec)
 - [NullSecX](https://x.com/NullSecurityX)
 - [Cyber X List](https://x.com/i/lists/201875823)
+# Other tools
+- [Admin Buster](https://github.com/blackhatethicalhacking/AdminPBuster)
 ## Medium[.]com Topics
 - [Bug Bounty](https://medium.com/tag/bug-bounty)
 - [Infosec Writeups](https://infosecwriteups.com/)
