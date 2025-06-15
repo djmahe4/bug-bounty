@@ -93,6 +93,10 @@ Outcome: A set of files (subdomains.txt, httpx.txt, allurls.txt, js.txt, mantra.
 - [API Vulnerabilities](https://github.com/Az0x7/vulnerability-Checklist/tree/main)
 - [Bug Bounty](https://bbradar.io/)
 - [Security+](https://www.professormesser.com/security-plus/sy0-701/sy0-701-video/sy0-701-comptia-security-plus-course/)
+- [NahamSec](https://www.youtube.com/@NahamSec)
+## Medium[.]com Topics
+- [Bug Bounty](https://medium.com/tag/bug-bounty)
+- [Infosec Writeups](https://infosecwriteups.com/)
 # SQL Injection
 - **Basic SQL Injection**: Explains simple payloads like ```' OR '1'='1``` to bypass login forms by making the query always return true.
 - **Union-Based SQL Injection**: Shows how to use UNION to extract data from other tables, e.g., ```' UNION SELECT database(), user(), version() --```.
