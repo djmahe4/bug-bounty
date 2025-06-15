@@ -94,7 +94,7 @@ Outcome: A set of files (subdomains.txt, httpx.txt, allurls.txt, js.txt, mantra.
 - [Bug Bounty](https://bbradar.io/)
 - [Security+](https://www.professormesser.com/security-plus/sy0-701/sy0-701-video/sy0-701-comptia-security-plus-course/)
 - [NahamSec](https://www.youtube.com/@NahamSec)
-- [NullSexX](https://x.com/NullSecurityX)
+- [NullSecX](https://x.com/NullSecurityX)
 - [Cyber X List](https://x.com/i/lists/201875823)
 ## Medium[.]com Topics
 - [Bug Bounty](https://medium.com/tag/bug-bounty)
