@@ -98,6 +98,7 @@ Outcome: A set of files (subdomains.txt, httpx.txt, allurls.txt, js.txt, mantra.
 - [Cyber X List](https://x.com/i/lists/201875823)
 # Other tools
 - [Admin Buster](https://github.com/blackhatethicalhacking/AdminPBuster)
+- [Dorker](https://github.com/RevoltSecurities/GoogleDorker)
 ## Medium[.]com Topics
 - [Bug Bounty](https://medium.com/tag/bug-bounty)
 - [Infosec Writeups](https://infosecwriteups.com/)
