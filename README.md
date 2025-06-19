@@ -109,5 +109,5 @@ Outcome: A set of files (subdomains.txt, httpx.txt, allurls.txt, js.txt, mantra.
 - **Blind SQL Injection**: Covers cases where no direct output is shown, using techniques like ```IF(1=1, SLEEP(5), 0)``` to infer data via delays.
 - **Common Payloads**: Lists examples such as ```' DROP TABLE users --``` or ```' AND SUBSTRING((SELECT database()),1,1)='a'```.
 # Career Preps
-- [Read Teaming](https://github.com/djmahe4/Programming-Aptitude-Interview-Prep/tree/main/Job_Roles/Red_Teaming)
+- [Red Teaming](https://github.com/djmahe4/Programming-Aptitude-Interview-Prep/tree/main/Job_Roles/Red_Teaming)
 - [SOC Analyst](https://github.com/djmahe4/Programming-Aptitude-Interview-Prep/tree/main/Job_Roles/SOC_Analyst)
