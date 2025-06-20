@@ -31,7 +31,11 @@ queries = [f'site:{domain} inurl:register.php',f'site:{domain} inurl:portal.php'
            f'site:{domain} inurl:login.php',f'site:{domain} filetype:wsdl',f'site:{domain} filetype:swf',
            f'site:{domain} filetype:aspx',f'site:{domain} filetype:php',f'site:{domain} inurl:php?book=',
            f'site:{domain} inurl:php?user=',f'site:{domain} inurl:php?id=',f'site:{domain} intext:"index of/"',
-           f"site:{domain} filetype:txt", f"site:{domain} inurl:.php.txt", f"site:{domain} ext:txt"]
+           f"site:{domain} filetype:txt", f"site:{domain} inurl:.php.txt", f"site:{domain} ext:txt",
+           f'site:http://s3.amazonaws.com "{domain}"',
+           f'site:http://blob.core.windows.net "{domain}"',
+           f'site:http://googleapis.com "{domain}"',
+           f'site:http://drive.google.com "{domain}"']
 for query in queries:
     #driver.get("https://www.bing.com/search?q="+query.replace(' ', '+').replace(":","%3A"))
     #print("https://www.bing.com/search?q="+query.replace(' ', '+').replace(":","%3A"))
