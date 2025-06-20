@@ -35,7 +35,9 @@ queries = [f'site:{domain} inurl:register.php',f'site:{domain} inurl:portal.php'
            f'site:http://s3.amazonaws.com "{domain}"',
            f'site:http://blob.core.windows.net "{domain}"',
            f'site:http://googleapis.com "{domain}"',
-           f'site:http://drive.google.com "{domain}"']
+           f'site:http://drive.google.com "{domain}"',
+           f'site:s3.amazonaws.com | site:blob.core.windows.net | site:googleapis.com | site:drive.google.com "{domain}"'
+          ]
 for query in queries:
     #driver.get("https://www.bing.com/search?q="+query.replace(' ', '+').replace(":","%3A"))
     #print("https://www.bing.com/search?q="+query.replace(' ', '+').replace(":","%3A"))
