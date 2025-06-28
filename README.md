@@ -99,6 +99,7 @@ Outcome: A set of files (subdomains.txt, httpx.txt, allurls.txt, js.txt, mantra.
 # Other tools
 - [Admin Buster](https://github.com/blackhatethicalhacking/AdminPBuster)
 - [Dorker](https://github.com/RevoltSecurities/GoogleDorker)
+- [gf pattern loader](https://github.com/thecybertix/GF-Patterns)
 ## Medium[.]com Topics
 - [Bug Bounty](https://medium.com/tag/bug-bounty)
 - [Infosec Writeups](https://infosecwriteups.com/)
