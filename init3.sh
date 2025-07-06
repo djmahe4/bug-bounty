@@ -63,6 +63,15 @@ chmod +x venv/bin/activate
 venv/bin/pip install -r requirements.txt
 cd ..
 
+echo "Installing secretfinder..."
+git clone https://github.com/m4ll0k/SecretFinder.git secretfinder
+cd secretfinder
+python3 -m venv venv
+chmod +x venv/bin/activate
+./venv/bin/activate
+venv/bin/pip install -r requirements.txt
+cd ..
+
 echo "Installing nuclei..."
 go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
 
