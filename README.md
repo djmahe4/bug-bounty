@@ -46,7 +46,7 @@ This process is often called a "reconnaissance pipeline" or "attack surface mapp
 ### Step 5: Focus on JavaScript files (grep, mantra) for deeper analysis.
 Outcome: A set of files (subdomains.txt, httpx.txt, allurls.txt, js.txt, mantra.txt) containing potential targets for manual or automated exploitation.
 ***
-```proced3.sh``` 
+```init3.sh ``` > ```proced3.sh``` 
 :Bug hunting methodology devoloped by [Zlatan H](https://www.linkedin.com/in/zlatanh).
 ```
 '"><svg/onload=prompt(5);>{{7*7}}" ==> for Sql injection
