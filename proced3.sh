@@ -8,7 +8,7 @@ httpx-pd -l subdomains.txt -ports 80,8080,8000,8888 -threads 200 > subdomains_al
 
 naabu -list subdomains.txt -c 50 -nmap-cli 'nmap -sV -sC' -o naabu-full.txt
 
-dirsearch/venv/bin/python dirsearch/dirsearch.py -l subdomains_alive.txt -i 200,204,403,443 -x 500,502,429,501,503 -R 5 --random-agent -t 50 -F -w onelistforallshort.txt -o directory.txt
+dirsearch/venv/bin/python dirsearch/dirsearch.py -l subdomains_alive.txt -i 200,204,403,443 -x 500,502,429,501,503 -R 5 --random-agent -t 50 -F -w wordlists/onelistforallshort.txt -o directory.txt
 
 cat subdomains_alive.txt | gau > newparms.txt
 
