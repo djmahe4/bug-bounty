@@ -14,7 +14,10 @@ if ! command -v go &> /dev/null; then
 fi
 
 echo "Getting the worldlist.."
-wget https://github.com/coffinxp/payloads/blob/c3d5e4e6e744d8ded9fd36163942eaeec15f4fed/onelistforallshort.txt
+mkdir wordlists
+cd wordlists/
+wget https://raw.githubusercontent.com/coffinxp/payloads/refs/heads/main/one>
+cd ..
 
 echo "Installing httpx..."
 go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
