@@ -16,7 +16,7 @@ cat newparms.txt | uro > filterparm.txt
 
 cat filterparam.txt | grep ".js$" > jsfiles.txt
 
-cat jsfiles.txt | while read url; do python3 /home/coffinxp/SecretFinder/SecretFinder.py -i $url -o cli >> secret.txt; done
+cat jsfiles.txt | while read url; do SecretFinder/venv/bin/python3 SecretFinder/SecretFinder.py -i $url -o cli >> secret.txt; done
 
 cat secret.txt | grep aws
 
