@@ -104,7 +104,7 @@ Outcome: A set of files (subdomains.txt, httpx.txt, allurls.txt, js.txt, mantra.
 ## Medium[.]com Topics
 - [Bug Bounty](https://medium.com/tag/bug-bounty)
 - [Infosec Writeups](https://infosecwriteups.com/)
-# SQL Injection
+# SQL Injection -> [More](https://github.com/djmahe4/bug-bounty/tree/main/SQL#introduction)
 - **Basic SQL Injection**: Explains simple payloads like ```' OR '1'='1``` to bypass login forms by making the query always return true.
 - **Union-Based SQL Injection**: Shows how to use UNION to extract data from other tables, e.g., ```' UNION SELECT database(), user(), version() --```.
 - **Error-Based SQL Injection**: Demonstrates using errors to reveal database info, like ```' OR 1=CONVERT(int, (SELECT @@version)) --```.
