@@ -20,13 +20,16 @@ def safe_click(driver,result):
             attempts += 1
             driver.refresh()
 
-url=input("Enter url:")
-if url=="":
-    url = "https://www.example.com/"
-parsed_url = urlparse(url)
-domain = parsed_url.netloc.lstrip('www.')
-print(domain)
-driver = driver_init()
+# url=input("Enter url:")
+# if url=="":
+#     url = "https://www.example.com/"
+# parsed_url = urlparse(url)
+# domain = parsed_url.netloc
+# if domain.startswith("www."):
+#     domain = domain[4:]
+# print(domain)
+domain=input("Enter domain: ")
+driver = driver_init(head=True)
 queries = [f'site:{domain} inurl:register.php',f'site:{domain} inurl:portal.php',f'site:{domain} intxt:login',
            f'site:{domain} inurl:login.php',f'site:{domain} filetype:wsdl',f'site:{domain} filetype:swf',
            f'site:{domain} filetype:aspx',f'site:{domain} filetype:php',f'site:{domain} inurl:php?book=',
@@ -40,7 +43,7 @@ queries = [f'site:{domain} inurl:register.php',f'site:{domain} inurl:portal.php'
           ]
 for query in queries:
     #driver.get("https://www.bing.com/search?q="+query.replace(' ', '+').replace(":","%3A"))
-    #print("https://www.bing.com/search?q="+query.replace(' ', '+').replace(":","%3A"))
+    print("QUERY: https://www.bing.com/search?q="+query.replace(' ', '+').replace(":","%3A"))
     driver.get('https://www.bing.com')
     time.sleep(5)
     search_box = driver.find_element(By.ID, 'sb_form_q')

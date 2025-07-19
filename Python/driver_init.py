@@ -55,7 +55,7 @@ def download_chromedriver(chrome_version):
     return driver_path
 
 
-def driver_init():
+def driver_init(head=False):
     """Initialize WebDriver, downloading ChromeDriver if missing."""
     chrome_version = get_chrome_version()
     if not chrome_version:
@@ -65,7 +65,8 @@ def driver_init():
     service = Service(executable_path=driver_path)
     options = webdriver.ChromeOptions()
     # Uncomment for headless mode if needed
-    options.add_argument("--headless")
+    if not head:
+        options.add_argument("--headless")
     driver = webdriver.Chrome(service=service, options=options)
     return driver
 
