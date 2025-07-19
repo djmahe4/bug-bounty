@@ -23,6 +23,7 @@ HEADERS = {
 # Common GitHub dorks for domain searching
 DORKS = [
     f'"{DOMAIN}"',
+    f'"Token=" "{DOMAIN}"', # Or company name
     f'"{DOMAIN}" password',
     f'"{DOMAIN}" secret',
     f'"{DOMAIN}" api_key',
