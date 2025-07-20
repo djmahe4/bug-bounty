@@ -86,7 +86,7 @@ Outcome: A set of files (subdomains.txt, httpx.txt, allurls.txt, js.txt, mantra.
 - [Webscout](https://webscout.io/): IP address scanner
 - [jimpl](https://jimpl.com): Image metadata extractor (upload profile pic and copypaste url)
 # Other Usefull Links
-- [Getting Started in Bug Bounty](https://medium.com/@Abhijeet_kumawat_/how-to-start-bug-bounty-in-2025-no-experience-no-problem-89adc68da592?sk=849ceed06612d3111a50f200cd156b1a)
+- [Getting Started in Bug Bounty](https://infosecwriteups.com/1-how-to-start-bug-bounty-with-zero-knowledge-5178f12f6529)
 - [Recon like a boss](https://github.com/djmahe4/bug-bounty/blob/main/Recon%20like%20a%20Boss.pdf) by [Brut security](https://t.me/brutsecurity)
 - [Workflow](https://www.linkedin.com/posts/deepmarketer_bug-bounty-recon-masterflow-activity-7345659744717611008-cM0v)
 - [Browser Extensions](https://omarora1603.medium.com/top-11-bug-bounty-extensions-that-will-save-you-hours-bea31a368529)
