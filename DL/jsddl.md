@@ -2,11 +2,11 @@
 
 ## 1. Server Identification and Fingerprinting
 
-Passive Recon  
+### Passive Recon  
 - Use Subfinder, Amass, or assetfinder to enumerate subdomains.  
 - Check DNS records (crt.sh, SecurityTrails) for hidden hostnames.
 
-Active Recon  
+### Active Recon  
 1. Scan HTTP ports (80, 8080, 8443):  
    ```bash
    nmap -sV -p80,8080,8443 --script=http-title,http-server-header target.com
