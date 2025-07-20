@@ -5,7 +5,7 @@ Bug hunting tools
 - Go to bug-bounty folder using```cd bug-bounty ```
 - Give execute permissions ```chmod +x * ```
 ### Windows
-- Windows users go to ```/Python ``` directory
+- Windows users go to ```Python ``` directory and create a virtual environment.
 ## Step2: Initialize
 - Execute shellcodes that begins with 'init' to initialize the 'proced' shell code
 - Wait for download to complete
