@@ -80,6 +80,7 @@ Outcome: A set of files (subdomains.txt, httpx.txt, allurls.txt, js.txt, mantra.
 4. ```xss_check.py``` => Performs a basic xss scan using BeautifulSoup, requests and suggest xss payloads
 5. ```403_bypass.py``` => Executes  403 (Forbidden) bypass techniques using requests module
 ---
+# Checklist -> [link](https://nemocyberworld.github.io/BugBountyCheckList/)
 # OSINT
 - [ODIN](https://odin.io/): Find exposed buckets and files
 - [Webscout](https://webscout.io/): IP address scanner
