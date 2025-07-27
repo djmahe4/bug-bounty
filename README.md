@@ -91,6 +91,7 @@ Outcome: A set of files (subdomains.txt, httpx.txt, allurls.txt, js.txt, mantra.
 - [Workflow](https://www.linkedin.com/posts/deepmarketer_bug-bounty-recon-masterflow-activity-7345659744717611008-cM0v)
 - [Browser Extensions](https://omarora1603.medium.com/top-11-bug-bounty-extensions-that-will-save-you-hours-bea31a368529)
 - [Url Scanner](https://cyscan.io/)
+- [Time Machine](https://anmolksachan.medium.com/the-time-machine-weaponizing-waybackurls-for-recon-bugbounties-osint-sensitive-endpoints-and-40889a03feeb)
 - [Web3 Block Explorer](https://dashboard.tenderly.co/explorer)
 - [Web Vulnerabilities](https://github.com/KathanP19/HowToHunt/tree/master)
 - [API Vulnerabilities](https://github.com/Az0x7/vulnerability-Checklist/tree/main)
