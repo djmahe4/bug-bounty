@@ -85,6 +85,7 @@ Outcome: A set of files (subdomains.txt, httpx.txt, allurls.txt, js.txt, mantra.
 - [ODIN](https://odin.io/): Find exposed buckets and files
 - [Webscout](https://webscout.io/): IP address scanner
 - [jimpl](https://jimpl.com): Image metadata extractor (upload profile pic and copypaste url)
+- [creepyCrawler](https://github.com/chm0dx/creepyCrawler): Web crawler which carries out active reconnaissance.
 # Other Usefull Links
 - [Getting Started in Bug Bounty](https://infosecwriteups.com/1-how-to-start-bug-bounty-with-zero-knowledge-5178f12f6529)
 - [Recon like a boss](https://github.com/djmahe4/bug-bounty/blob/main/Recon%20like%20a%20Boss.pdf) by [Brut security](https://t.me/brutsecurity)
