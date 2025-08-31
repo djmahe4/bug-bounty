@@ -16,7 +16,7 @@
      ```
      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
      ```
-It's basically consist of 3 parts header.payload.signature.<br>
+**JWT** basically consist of 3 parts header.payload.signature.<br>
 
 **Header** contains metadata about the token, like which algorithm was used to sign it and Payload contains the actual user data (called claims). These part is encoded in Base64 so we can decode it to read it.<br>
 
