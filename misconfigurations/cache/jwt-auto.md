@@ -16,6 +16,11 @@
      ```
      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
      ```
+It's basically consist of 3 parts header.payload.signature.<br>
+
+**Header** contains metadata about the token, like which algorithm was used to sign it and Payload contains the actual user data (called claims). These part is encoded in Base64 so we can decode it to read it.<br>
+
+**Signature** is the most important part. It ensures the token wasn't tampered with. If the secret key is weak, attackers can guess/crack it, create their own tokens, and impersonate any user even an admin.<br>
 
 3. **Decide how the token is sent**  
    - **Bearer**: via `Authorization: Bearer <token>` header  
