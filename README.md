@@ -88,6 +88,7 @@ Outcome: A set of files (subdomains.txt, httpx.txt, allurls.txt, js.txt, mantra.
 - [creepyCrawler](https://github.com/chm0dx/creepyCrawler): Web crawler which carries out active reconnaissance.
 # Other Usefull Links
 - [Getting Started in Bug Bounty](https://infosecwriteups.com/1-how-to-start-bug-bounty-with-zero-knowledge-5178f12f6529)
+- [Free Bug Bounty Course](https://ajakcyberacademy.com/courses/certified-bug-bounty-recon-english/)
 - [Recon like a boss](https://github.com/djmahe4/bug-bounty/blob/main/Recon%20like%20a%20Boss.pdf) by [Brut security](https://t.me/brutsecurity)
 - [Workflow](https://www.linkedin.com/posts/deepmarketer_bug-bounty-recon-masterflow-activity-7345659744717611008-cM0v)
 - [Browser Extensions](https://omarora1603.medium.com/top-11-bug-bounty-extensions-that-will-save-you-hours-bea31a368529)
