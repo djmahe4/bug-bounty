@@ -90,6 +90,3 @@ If you can control a URL that the server fetches, you can make it talk to **inte
 
 ---
 [MEDIUM LINK](https://medium.com/@MohammedMHassan/ssrf-7c3f196e8d45)
-
-If you want, I can make you a **ready‑to‑use SSRF testing checklist** with payloads, bypass tricks, and a step‑by‑step Burp workflow so you can test any target quickly without re‑reading the article each time.  
-Do you want me to prepare that?
