@@ -39,6 +39,7 @@ queries = [f'site:{domain} inurl:register.php',f'site:{domain} inurl:portal.php'
            f'site:http://blob.core.windows.net "{domain}"',
            f'site:http://googleapis.com "{domain}"',
            f'site:http://drive.google.com "{domain}"',
+           f"site:{domain} inurl:api | site:*/rest | site:*/v1 | site:*/v2 | site:*/v3",
            f'site:s3.amazonaws.com | site:blob.core.windows.net | site:googleapis.com | site:drive.google.com "{domain}"'
           ]
 for query in queries:
@@ -65,3 +66,4 @@ for query in queries:
             print("No link found in this result.")
     time.sleep(2)
 driver.close()
+
