@@ -40,6 +40,7 @@ queries = [f'site:{domain} inurl:register.php',f'site:{domain} inurl:portal.php'
            f'site:http://googleapis.com "{domain}"',
            f'site:http://drive.google.com "{domain}"',
            f"site:{domain} inurl:api | site:*/rest | site:*/v1 | site:*/v2 | site:*/v3",
+           f"site:{domain} ext:log | ext:txt | ext:conf | ext:cnf | ext:ini | ext:env | ext:sh | ext:bak | ext:backup | ext:swp | ext:old | ext:~ | ext:git | ext:svn | ext:htpasswd | ext:htaccess | ext:json", # Configs
            f"site:{domain} inurl:q= | inurl:s= | inurl:search= | inurl:query= | inurl:keyword= | inurl:lang= inurl:&", # XSS
            f'site:s3.amazonaws.com | site:blob.core.windows.net | site:googleapis.com | site:drive.google.com "{domain}"'
           ]
@@ -67,5 +68,6 @@ for query in queries:
             print("No link found in this result.")
     time.sleep(2)
 driver.close()
+
 
 
