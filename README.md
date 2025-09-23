@@ -102,6 +102,7 @@ Outcome: A set of files (subdomains.txt, httpx.txt, allurls.txt, js.txt, mantra.
 - [NahamSec](https://www.youtube.com/@NahamSec)
 - [NullSecX](https://x.com/NullSecurityX)
 - [Cyber X List](https://x.com/i/lists/201875823)
+- [shodan cleansheet](https://github.com/Ignitetechnologies/Mindmap/blob/main/Shodan/Shodan%20UHD.png)
 - [Bugbounty targets](https://github.com/shivangmauryaa/BugBountyTargets)
 - [More resources](https://github.com/djmahe4/Programming-Aptitude-Interview-Prep/blob/main/Job_Roles/Red_Teaming/README.md#resources)
 # Other tools
