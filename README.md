@@ -121,3 +121,6 @@ Outcome: A set of files (subdomains.txt, httpx.txt, allurls.txt, js.txt, mantra.
 # Career Preps
 - [Red Teaming](https://github.com/djmahe4/Programming-Aptitude-Interview-Prep/tree/main/Job_Roles/Red_Teaming)
 - [SOC Analyst](https://github.com/djmahe4/Programming-Aptitude-Interview-Prep/tree/main/Job_Roles/SOC_Analyst)
+
+# My Main Source 😜 
+**[ref](https://github.com/rix4uni/medium-writeups)**
