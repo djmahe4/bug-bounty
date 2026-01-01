@@ -97,6 +97,7 @@ Outcome: A set of files (subdomains.txt, httpx.txt, allurls.txt, js.txt, mantra.
 - [Time Machine](https://anmolksachan.medium.com/the-time-machine-weaponizing-waybackurls-for-recon-bugbounties-osint-sensitive-endpoints-and-40889a03feeb)
 - [Web3 Block Explorer](https://dashboard.tenderly.co/explorer)
 - [Web Vulnerabilities](https://github.com/KathanP19/HowToHunt/tree/master)
+- [Nuclei ai prompts](https://nucleiprompts.com/how-to-use.php)
 - [API Vulnerabilities](https://github.com/Az0x7/vulnerability-Checklist/tree/main)
 - [Bug Bounty](https://bbradar.io/)
 - [Security+](https://www.professormesser.com/security-plus/sy0-701/sy0-701-video/sy0-701-comptia-security-plus-course/)
