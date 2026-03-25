@@ -80,7 +80,7 @@ Outcome: A set of files (subdomains.txt, httpx.txt, allurls.txt, js.txt, mantra.
 4. ```xss_check.py``` => Performs a basic xss scan using BeautifulSoup, requests and suggest xss payloads
 5. ```403_bypass.py``` => Executes  403 (Forbidden) bypass techniques using requests module
 ---
-# Checklist -> [link](https://nemocyberworld.github.io/BugBountyCheckList/)
+
 # Getting Started 
 - [Getting Started in Bug Bounty](https://infosecwriteups.com/1-how-to-start-bug-bounty-with-zero-knowledge-5178f12f6529)
 - [Free Bug Bounty Course](https://ajakcyberacademy.com/courses/certified-bug-bounty-recon-english/)
