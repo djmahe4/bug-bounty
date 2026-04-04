@@ -111,6 +111,7 @@ Outcome: A set of files (subdomains.txt, httpx.txt, allurls.txt, js.txt, mantra.
 - [shodan cleansheet](https://github.com/Ignitetechnologies/Mindmap/blob/main/Shodan/Shodan%20UHD.png)
 - [Bugbounty targets](https://github.com/shivangmauryaa/BugBountyTargets)
 - [worldlists](https://github.com/trickest/wordlists)
+- [Recon dorks](https://claude.ai/public/artifacts/854f3634-3edd-48bb-9f30-53edee35f705)
 - [More resources](https://github.com/djmahe4/Programming-Aptitude-Interview-Prep/blob/main/Job_Roles/Red_Teaming/README.md#resources)
 # Other tools
 - [Admin Buster](https://github.com/blackhatethicalhacking/AdminPBuster)
