@@ -90,3 +90,18 @@ If you can control a URL that the server fetches, you can make it talk to **inte
 
 ---
 [MEDIUM LINK](https://medium.com/@MohammedMHassan/ssrf-7c3f196e8d45)
+
+## Method 2: Image test
+
+One liner ssrf image test<br>
+```
+curl -sI "https://<target>/_next/image?url=httpbin.org/image/png&w=64…" | grep -E "^HTTP|content-type"
+```
+
+1. First, validate the endpoint (does it have the /_next/image?url= parameter?).
+2. Quick sweep with an external test URL: curl -sl "https://target/_next/image?url=httpbin.org/image/png&w=64..." → if it returns 200 + image/*, it's vulnerable.
+3. Target the internal network: Try AWS metadata (169.254.169.254), localhost, internal IPs.
+
+4. Attempt bypass: encoding, redirects, different formats.
+
+5. Record full request/response with PoC, demonstrate impact (internal data leak, etc.)
