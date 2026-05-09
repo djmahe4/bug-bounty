@@ -84,6 +84,7 @@ Outcome: A set of files (subdomains.txt, httpx.txt, allurls.txt, js.txt, mantra.
 # Getting Started 
 - [Getting Started in Bug Bounty](https://infosecwriteups.com/1-how-to-start-bug-bounty-with-zero-knowledge-5178f12f6529)
 - [Free Bug Bounty Course](https://ajakcyberacademy.com/courses/certified-bug-bounty-recon-english/)
+- [Bug bounty guide](https://aituglo.com/guide/bug-bounty/)
 - [first bounty](https://github.com/BehiSecc/First-Bounty)
 # OSINT
 - [ODIN](https://odin.io/): Find exposed buckets and files
