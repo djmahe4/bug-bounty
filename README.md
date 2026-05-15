@@ -118,6 +118,7 @@ Outcome: A set of files (subdomains.txt, httpx.txt, allurls.txt, js.txt, mantra.
 - [Admin Buster](https://github.com/blackhatethicalhacking/AdminPBuster)
 - [Dorker](https://github.com/RevoltSecurities/GoogleDorker)
 - [gf pattern loader](https://github.com/thecybertix/GF-Patterns)
+- [cariddi](https://github.com/edoardottt/cariddi): Useful for endpoint extraction, parameter discovery, API path collection, JS analysis, response-based recon.
 ## Medium[.]com Topics
 - [Bug Bounty](https://medium.com/tag/bug-bounty)
 - [Infosec Writeups](https://infosecwriteups.com/)
