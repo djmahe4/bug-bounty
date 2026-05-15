@@ -84,6 +84,7 @@ Outcome: A set of files (subdomains.txt, httpx.txt, allurls.txt, js.txt, mantra.
 # Getting Started 
 - [Getting Started in Bug Bounty](https://infosecwriteups.com/1-how-to-start-bug-bounty-with-zero-knowledge-5178f12f6529)
 - [Free Bug Bounty Course](https://ajakcyberacademy.com/courses/certified-bug-bounty-recon-english/)
+- [Free bug Bounty course 2](https://github.com/KrazePlanet/KrazePlanetTraining)
 - [Bug bounty guide](https://aituglo.com/guide/bug-bounty/)
 - [first bounty](https://github.com/BehiSecc/First-Bounty)
 # OSINT
