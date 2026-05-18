@@ -25,3 +25,6 @@ intext:“confidential” | intext:“Not for Public Release” | intext:”inte
 ```
 
   
+## Wayback urls
+
+Search Wayback URLs for “download”, “export”, “backup”, “private”, and “dev”
