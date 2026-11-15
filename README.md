@@ -1,5 +1,14 @@
 # bug-bounty
-Bug hunting tools
+Bug hunting tools — evolved into a structured learning & automation hub (2026).
+
+## What's New (2026)
+- Structured 5-stage learning path: [docs/LEARNING_PATH.md](docs/LEARNING_PATH.md)
+- AI-assisted recon & agentic workflows: [docs/AI_ASSISTED_RECON.md](docs/AI_ASSISTED_RECON.md)
+- Modern tooling table: [docs/TOOLING_2026.md](docs/TOOLING_2026.md)
+- New scripts: [scripts/ai_recon.py](scripts/ai_recon.py) (GitHub secret/endpoint search) and [scripts/agentic_pipeline.sh](scripts/agentic_pipeline.sh) (tool chaining + LLM prep)
+
+Synthesized from public 2025-2026 sources (e.g. su6osec/Bug-Bounty-Hunting-Methodology-2026, alham-rizvi/Bug-Bounty-Roadmap). Existing init/proced pipelines and Python tools remain available.
+
 ## Step1: Download
 - Use ```git clone https://github.com/djmahe4/bug-bounty/ ```
 - Go to bug-bounty folder using```cd bug-bounty ```
