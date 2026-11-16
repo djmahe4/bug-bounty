@@ -2,12 +2,12 @@
 Bug hunting tools — evolved into a structured learning & automation hub (2026).
 
 ## What's New (2026)
-- Structured 5-stage learning path: [docs/LEARNING_PATH.md](docs/LEARNING_PATH.md)
-- AI-assisted recon & agentic workflows: [docs/AI_ASSISTED_RECON.md](docs/AI_ASSISTED_RECON.md)
-- Modern tooling table: [docs/TOOLING_2026.md](docs/TOOLING_2026.md)
-- New scripts: [scripts/ai_recon.py](scripts/ai_recon.py) (GitHub secret/endpoint search) and [scripts/agentic_pipeline.sh](scripts/agentic_pipeline.sh) (tool chaining + LLM prep)
+- Structured 5-stage learning path with detailed stages and practice outcomes: [docs/LEARNING_PATH.md](docs/LEARNING_PATH.md)
+- Expanded AI-assisted recon, agentic workflows, and MCP patterns: [docs/AI_ASSISTED_RECON.md](docs/AI_ASSISTED_RECON.md)
+- Updated modern tooling table (ProjectDiscovery + more): [docs/TOOLING_2026.md](docs/TOOLING_2026.md)
+- Improved scripts: [scripts/ai_recon.py](scripts/ai_recon.py) (GitHub secret/endpoint search with better error handling) and [scripts/agentic_pipeline.sh](scripts/agentic_pipeline.sh) (robust tool chaining + LLM prep)
 
-Synthesized from public 2025-2026 sources (e.g. su6osec/Bug-Bounty-Hunting-Methodology-2026, alham-rizvi/Bug-Bounty-Roadmap). Existing init/proced pipelines and Python tools remain available.
+Synthesized from public 2025-2026 sources (e.g. su6osec/Bug-Bounty-Hunting-Methodology-2026 HuntBook, alham-rizvi/Bug-Bounty-Roadmap, hexsecteam methodologies). Existing init/proced pipelines and Python tools remain available for classic workflows.
 
 ## Step1: Download
 - Use ```git clone https://github.com/djmahe4/bug-bounty/ ```
