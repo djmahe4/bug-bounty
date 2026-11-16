@@ -23,7 +23,7 @@ def search_github(query: str, token: str | None = None) -> list:
     if token:
         headers["Authorization"] = f"Bearer {token}"
     url = "https://api.github.com/search/code"
-    try:
+        resp = requests.get(url, headers=headers, params={"q": f"{query} in:file"}, timeout=10)
         resp = requests.get(url, headers=headers, params={"q": f"{query} in:file"}, timeout=10)
     try:
         resp = requests.get(url, headers=headers, timeout=10)
