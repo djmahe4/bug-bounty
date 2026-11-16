@@ -3,14 +3,15 @@
 ai_recon.py - Search GitHub for a target's exposed secrets/endpoints using public API.
 
 Inspired by patterns from mass-pii-finder and git-hound (paraphrased; no code copied).
+Uses only the public GitHub Search API; rate-limited and dry-run safe.
 
 Usage:
-  export GITHUB_TOKEN=your_token  # optional, for higher rate limits
+  export GITHUB_TOKEN=your_token  # optional, for higher rate limits (repo scope only)
   python3 scripts/ai_recon.py example.com
 
 Expected output:
-  JSON list of potential findings with repository, path, and snippet context.
-  Dry-run safe; only queries public search API.
+  JSON list of potential findings with repository, path, and URL.
+  Always review manually; false positives are common.
 """
 
 import os
@@ -19,15 +20,15 @@ import json
 import requests
 
 def search_github(query: str, token: str | None = None) -> list:
-    headers = {"Accept": "application/vnd.github+json"}
+    headers = {"Accept": "application/vnd.github+json", "User-Agent": "bug-bounty-ai-recon"}
     if token:
         headers["Authorization"] = f"Bearer {token}"
     url = "https://api.github.com/search/code"
     try:
-        resp = requests.get(url, headers=headers, params={"q": f"{query} in:file"}, timeout=10)
+        resp = requests.get(url, headers=headers, params={"q": f"{query} in:file"}, timeout=15)
         resp.raise_for_status()
         return resp.json().get("items", [])[:10]  # limit results
-    except Exception as e:
+    except requests.exceptions.RequestException as e:
         print(f"API error: {e}", file=sys.stderr)
         return []
 
@@ -35,11 +36,14 @@ def main():
     if len(sys.argv) < 2:
         print("Usage: python3 ai_recon.py <domain>")
         sys.exit(1)
-    domain = sys.argv[1]
+    domain = sys.argv[1].strip()
+    if not domain or "." not in domain:
+        print("Provide a valid domain (e.g., example.com)")
+        sys.exit(1)
     token = os.getenv("GITHUB_TOKEN")
     queries = [
-        f'"{domain}" api_key OR secret OR password OR token',
-        f'"{domain}" endpoint OR /api/ OR graphql'
+        f'"{domain}" api_key OR secret OR password OR token OR key',
+        f'"{domain}" endpoint OR /api/ OR graphql OR swagger'
     ]
     findings = []
     for q in queries:
@@ -52,7 +56,7 @@ def main():
                 "score": item.get("score")
             })
     print(json.dumps(findings, indent=2))
-    print(f"\nFound {len(findings)} potential items. Review manually. (Dry-run mode)")
+    print(f"\nFound {len(findings)} potential items. Review manually. (Dry-run mode — no aggressive actions)")
 
 if __name__ == "__main__":
     main()
