@@ -22,7 +22,9 @@ def search_github(query: str, token: str | None = None) -> list:
     headers = {"Accept": "application/vnd.github+json"}
     if token:
         headers["Authorization"] = f"Bearer {token}"
-    url = f"https://api.github.com/search/code?q={query}+in:file"
+    url = "https://api.github.com/search/code"
+    try:
+        resp = requests.get(url, headers=headers, params={"q": f"{query} in:file"}, timeout=10)
     try:
         resp = requests.get(url, headers=headers, timeout=10)
         resp.raise_for_status()
