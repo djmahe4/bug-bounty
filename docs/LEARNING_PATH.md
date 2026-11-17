@@ -1,8 +1,8 @@
 # 2026 Bug Bounty Learning Path
 
-A curated 5-stage roadmap from fundamentals to advanced AI-assisted hunting. Synthesized from public sources including [su6osec/Bug-Bounty-Hunting-Methodology-2026](https://github.com/su6osec/Bug-Bounty-Hunting-Methodology-2026) (HuntBook phases), [alham-rizvi/Bug-Bounty-Roadmap](https://github.com/alham-rizvi/Bug-Bounty-Roadmap), and community methodologies like hexsecteam/Bug-Bounty-Hunting-Methodology-2026.
+A curated 5-stage roadmap from fundamentals to advanced AI-assisted hunting. Synthesized from public sources including [su6osec/Bug-Bounty-Hunting-Methodology-2026](https://github.com/su6osec/Bug-Bounty-Hunting-Methodology-2026) (HuntBook phases and Ebb & Flow), [alham-rizvi/Bug-Bounty-Roadmap](https://github.com/alham-rizvi/Bug-Bounty-Roadmap), and community methodologies.
 
-This path emphasizes structured progression, manual validation over pure automation, and integration of AI for prioritization (not replacement of human judgment).
+This path emphasizes structured progression, manual validation over pure automation, and integration of AI for prioritization (not replacement of human judgment). See also docs/MASTER_CHECKLIST.md.
 
 ## Stage 1: Fundamentals (1-2 weeks)
 - Networking basics: TCP/IP, DNS, HTTP/HTTPS request/response cycles, status codes, headers.
@@ -24,13 +24,13 @@ This path emphasizes structured progression, manual validation over pure automat
 
 ## Stage 3: Bug Classes (3-4 weeks)
 - Core high-payout: Broken Access Control (IDOR, privilege escalation), XSS (reflected/stored/DOM), SQLi, SSRF, business logic flaws.
-- Emerging 2026: AI/LLM injection, prototype pollution, GraphQL/API abuse.
-- Checklists from su6osec vulnerabilities/ and master_checklist.md; hexsecteam two-eye approach.
+- Emerging 2026: AI/LLM injection, prototype pollution, GraphQL/API abuse, cloud misconfigs.
+- Checklists from su6osec vulnerabilities/ and master_checklist.md.
 - Practice: PortSwigger labs + authorized programs (start with VDPs).
 - Focus on depth over volume; prove impact (ATO, data exposure).
 
 ## Stage 4: Automation & AI-Assisted Workflows (ongoing)
-- Agentic CLIs and MCP servers for safe tool chaining (e.g., HexStrike AI patterns).
+- Agentic CLIs and MCP servers for safe tool chaining (e.g., HexStrike AI, h1-brain patterns).
 - LLM for JS analysis (extract endpoints/secrets), secret prioritization from GitHub, report drafting.
 - Semi-automated pipelines: subfinder | httpx | katana | LLM prioritizer.
 - See docs/AI_ASSISTED_RECON.md and scripts/.
@@ -39,13 +39,13 @@ This path emphasizes structured progression, manual validation over pure automat
 ## Stage 5: Reporting & Career (continuous)
 - Structured reports: Title with impact, minimal PoC, business risk quantification, CVSS.
 - Platforms: HackerOne, Bugcrowd, Intigriti; also independent VDPs.
-- Resources: su6osec phases/06_reporting.md, alham-rizvi h1reports.md, abhihackz.com 2026 playbook.
+- Resources: su6osec phases/06_reporting.md, alham-rizvi h1reports.md.
 - Tips: One high-quality report > many noisy ones; focus on triage-ready submissions.
 
-**Expected outcome**: After following this path with daily deliberate practice (90-day framework style), you can systematically map attack surfaces, identify high-impact bugs using modern tooling, and produce professional reports.
+**Expected outcome**: After following this path with daily deliberate practice, you can systematically map attack surfaces, identify high-impact bugs using modern tooling, and produce professional reports.
 
 ### Sources
 - https://raw.githubusercontent.com/su6osec/Bug-Bounty-Hunting-Methodology-2026/main/README.md
 - https://github.com/alham-rizvi/Bug-Bounty-Roadmap
-- https://github.com/hexsecteam/Bug-Bounty-Hunting-Methodology-2026
-- Community 2026 roadmaps (Undercode Testing, chs.us guides)
+- https://github.com/su6osec/Bug-Bounty-Hunting-Methodology-2026/tree/main/phases
+- Community 2026 roadmaps
