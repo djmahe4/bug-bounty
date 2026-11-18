@@ -1,0 +1,25 @@
+name: wiki-index
+on:
+  pull_request:
+    paths: ["wiki/**", "scripts/wiki_indexer.py"]
+  push:
+    branches: ["main", "master", "agent-harness/**"]
+    paths: ["wiki/**", "scripts/wiki_indexer.py"]
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install pyyaml
+      - name: Validate wikilinks
+        run: python scripts/wiki_indexer.py --check
+      - name: Ensure indexes are regenerated
+        run: |
+          python scripts/wiki_indexer.py
+          if ! git diff --quiet wiki/_index.md wiki/_graph.json; then
+            echo "::error::_index.md or _graph.json is stale — run scripts/wiki_indexer.py locally and commit."
+            git --no-pager diff wiki/_index.md wiki/_graph.json
+            exit 1
+          fi
