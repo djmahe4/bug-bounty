@@ -15,5 +15,16 @@
 `/admin_users/sign_in` ❌<br>
 `/%61dmin_users/sign_in` ✅
 
+## Cache poisoning 
+
+Inject a header the cache doesn't key on but the app uses:
+```
+X-Forwarded-Host: evil[.]com
+X-Forwarded-Scheme: http
+```
+If the response is cached with your injected content, every user who hits that cache gets your payload.<br>
+[source](https://x.com/gustavorobertux/status/2123416006169346409?a=TwIi_nnoPoUQe1zsgFQ&s=19)
+
+
 ## Payloads
 - **[XSS Now website](https://xssnow.in/)**
