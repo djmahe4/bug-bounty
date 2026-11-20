@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -euo pipefail
+if [[ ! -f scripts/wiki_indexer.py ]]; then exit 0; fi
+python scripts/wiki_indexer.py --quiet || true
+git add wiki/_index.md wiki/_graph.json 2>/dev/null || true
+git ls-files -m -o --exclude-standard -- 'wiki/**/*.md' 2>/dev/null \
+  | xargs -r git add
