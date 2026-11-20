@@ -37,16 +37,16 @@ Map the company before hunting subdomains.
 
 ```bash
 # ASN ownership
-asnmap -d acme-corp.example -silent
+asnmap -d example.com -silent | tee cidrs.txt
 
-# Related domains / acquisitions
-amass intel -org "Acme Corp" -max-dns-queries 2500
+# Expand discovered CIDR ranges
+mapcidr -l cidrs.txt -silent | tee ips.txt
 
-# Certificate-based discovery (Shodan/Censys)
-uncover -q 'ssl:"acme-corp.example"' -e shodan,censys -silent
+# Internet-wide indexed asset discovery
+uncover -q 'ssl:"example.com"' -e shodan,censys -silent | tee exposed.txt
 
-# Reverse DNS on owned ranges
-# (after getting ranges from asnmap)
+# Reverse DNS on discovered IP ranges
+dnsx -l ips.txt -ptr -resp -silent | tee ptr-records.txt
 ```
 
 **What to look for**:
@@ -103,6 +103,11 @@ Also read:
 # Port scanning (rate-limited)
 naabu -list live.txt -rate 1000 -c 50 -silent | anew ports.txt
 nmap -iL interesting_hosts.txt -sV --top-ports 1000 -T3
+```
+Services:
+```
+# Identify live HTTP services
+httpx -l subs.txt -silent -status-code -title -tech-detect -cdn -follow-redirects -rate-limit 10 | tee live.txt
 ```
 
 ---
