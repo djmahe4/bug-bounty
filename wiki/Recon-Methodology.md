@@ -82,6 +82,30 @@ Further expansion usually yields duplicates or out-of-scope assets. Move to vali
 
 Related pages: [[Dorking-Arsenal]], [[Tooling-2026]]
 
+
+
+## Phase 5 — WAF Bypass and Origin IP Discovery (additive 2026)
+
+From public methodologies: favicon hash, historical DNS, analytics IDs can reveal origin servers behind CDNs.
+
+```bash
+# Example: favicon hash lookup (tools vary; confirm in scope)
+# favUp or manual: extract favicon, hash, search Shodan http.favicon.hash:<hash>
+```
+
+Always document evidence of ownership and stay within program rules. See [[Dorking-Arsenal]] for complementary searches.
+
+## Phase 6 — Virtual Host Enumeration
+
+Some services respond only to correct Host headers.
+
+```bash
+# On a known IP (scope-checked)
+# ffuf -u http://IP -w wordlist -H "Host: FUZZ.example.com" -mc 200,301,302,403
+```
+
+Stop when diminishing returns or scope boundaries are reached.
+
 <!-- backlinks:auto-start -->
 
 ## Backlinks

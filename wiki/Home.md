@@ -32,7 +32,7 @@ This wiki is an additive, structured knowledge base for modern bug-bounty work (
 2. Jump to [[Recon-Methodology]] when you have a scoped target.
 3. Run `python scripts/wiki_indexer.py` after any page change to regenerate indexes and backlinks.
 
-Last reviewed: 2026-11-19
+Last reviewed: 2026-11-24
 
 <!-- backlinks:auto-start -->
 
