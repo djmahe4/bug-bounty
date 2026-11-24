@@ -1,6 +1,6 @@
 {
   "broken": [],
-  "generated_at": "2026-11-23T22:42:18Z",
+  "generated_at": "2026-11-24T22:42:11Z",
   "orphans": [],
   "pages": {
     "ai-agentic-workflows": {
@@ -36,10 +36,10 @@
       ],
       "tags": [
         "dorking",
-        "google",
-        "shodan",
         "github",
-        "osint"
+        "google",
+        "osint",
+        "shodan"
       ],
       "title": "Dorking Arsenal"
     },
@@ -55,9 +55,9 @@
         "tooling-2026"
       ],
       "tags": [
-        "wiki",
         "index",
-        "overview"
+        "overview",
+        "wiki"
       ],
       "title": "Home"
     },
@@ -73,10 +73,10 @@
         "tooling-2026"
       ],
       "tags": [
-        "learning",
-        "roadmap",
         "fundamentals",
-        "practice"
+        "learning",
+        "practice",
+        "roadmap"
       ],
       "title": "Learning Path"
     },
@@ -93,9 +93,9 @@
       ],
       "tags": [
         "nuclei",
+        "scanning",
         "templates",
-        "yaml",
-        "scanning"
+        "yaml"
       ],
       "title": "Nuclei Templates"
     },
@@ -114,11 +114,11 @@
         "tooling-2026"
       ],
       "tags": [
-        "recon",
-        "subfinder",
+        "dnsx",
         "httpx",
         "katana",
-        "dnsx"
+        "recon",
+        "subfinder"
       ],
       "title": "Recon Methodology"
     },
@@ -136,11 +136,11 @@
         "recon-methodology"
       ],
       "tags": [
-        "tools",
+        "agentic",
+        "mcp",
         "nuclei",
         "subfinder",
-        "mcp",
-        "agentic"
+        "tools"
       ],
       "title": "Tooling 2026"
     },
@@ -154,9 +154,9 @@
         "recon-methodology"
       ],
       "tags": [
-        "validation",
+        "skill",
         "triage",
-        "skill"
+        "validation"
       ],
       "title": "Validation Skill"
     }

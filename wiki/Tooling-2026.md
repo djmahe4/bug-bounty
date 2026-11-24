@@ -27,6 +27,7 @@ Current practical tooling for bug-bounty work. Prefer official install methods a
 | git-hound | GitHub secret and endpoint search | `go install github.com/tillson/git-hound@latest` | `git-hound --subdomain-file subs.txt` | intermediate | https://github.com/tillson/git-hound |
 | mass-pii-finder | PII pattern search in files | Check upstream releases | `mass-pii-finder -d ./downloaded-js` | advanced | https://github.com/search?q=mass-pii-finder |
 | Agentic-Bug-Hunter | Agentic CLI orchestration of recon tools | Check upstream releases | `abh recon example.com --scope scope.txt` | advanced | https://github.com/search?q=Agentic-Bug-Hunter |
+| ARTEX | Self-hosted multi-agent pentest platform with evidence graphs and approval gates | `git clone https://github.com/BaaRai/ARTEX && docker compose up` (see repo) | Configure LLM, set scope, start task with human gates | advanced | https://github.com/BaaRai/ARTEX |
 | MCP server (example: filesystem or custom) | Tool interface for AI agents under human control | `npx @modelcontextprotocol/server-filesystem /tmp` or project-specific | Configure in client; never grant unrestricted shell | advanced | https://github.com/modelcontextprotocol/servers |
 
 **Notes**:

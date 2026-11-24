@@ -63,7 +63,7 @@ httpx output:
 
 ## MCP server notes
 
-An MCP server exposes tools to an agent. Common risks include tool-description poisoning, excessive permissions, and command execution via configuration. Prefer well-reviewed servers, pin versions, and review tool descriptions before connecting. See public discussions of MCP security for current failure modes.
+An MCP server exposes tools to an agent. Common risks observed in 2025–2026 include tool-description poisoning (hidden instructions in tool metadata), token passthrough to downstream APIs, and missing object-level authorization. Prefer well-reviewed servers (e.g., scoped Nuclei or program-aware MCP), pin versions, review tool descriptions before connecting, and apply least-privilege. See public MCP security discussions (tool poisoning, DNS rebinding on local servers) for current failure modes. Always keep a human approval gate for any tool that sends traffic or modifies state.
 
 Related pages: [[Tooling-2026]], [[validation-skill]]
 
