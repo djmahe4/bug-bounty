@@ -1,0 +1,164 @@
+{
+  "broken": [],
+  "generated_at": "2026-11-24T22:42:11Z",
+  "orphans": [],
+  "pages": {
+    "ai-agentic-workflows": {
+      "category": "methodology",
+      "in_links": [
+        "home",
+        "learning-path",
+        "tooling-2026",
+        "validation-skill"
+      ],
+      "out_links": [
+        "tooling-2026",
+        "validation-skill"
+      ],
+      "tags": [
+        "ai",
+        "agentic",
+        "mcp",
+        "triage",
+        "workflow"
+      ],
+      "title": "AI Agentic Workflows"
+    },
+    "dorking-arsenal": {
+      "category": "recon",
+      "in_links": [
+        "home",
+        "recon-methodology"
+      ],
+      "out_links": [
+        "nuclei-templates",
+        "recon-methodology"
+      ],
+      "tags": [
+        "dorking",
+        "github",
+        "google",
+        "osint",
+        "shodan"
+      ],
+      "title": "Dorking Arsenal"
+    },
+    "home": {
+      "category": "meta",
+      "in_links": [],
+      "out_links": [
+        "ai-agentic-workflows",
+        "dorking-arsenal",
+        "learning-path",
+        "nuclei-templates",
+        "recon-methodology",
+        "tooling-2026"
+      ],
+      "tags": [
+        "index",
+        "overview",
+        "wiki"
+      ],
+      "title": "Home"
+    },
+    "learning-path": {
+      "category": "fundamentals",
+      "in_links": [
+        "home"
+      ],
+      "out_links": [
+        "ai-agentic-workflows",
+        "nuclei-templates",
+        "recon-methodology",
+        "tooling-2026"
+      ],
+      "tags": [
+        "fundamentals",
+        "learning",
+        "practice",
+        "roadmap"
+      ],
+      "title": "Learning Path"
+    },
+    "nuclei-templates": {
+      "category": "exploitation",
+      "in_links": [
+        "dorking-arsenal",
+        "home",
+        "learning-path"
+      ],
+      "out_links": [
+        "recon-methodology",
+        "tooling-2026"
+      ],
+      "tags": [
+        "nuclei",
+        "scanning",
+        "templates",
+        "yaml"
+      ],
+      "title": "Nuclei Templates"
+    },
+    "recon-methodology": {
+      "category": "recon",
+      "in_links": [
+        "dorking-arsenal",
+        "home",
+        "learning-path",
+        "nuclei-templates",
+        "tooling-2026",
+        "validation-skill"
+      ],
+      "out_links": [
+        "dorking-arsenal",
+        "tooling-2026"
+      ],
+      "tags": [
+        "dnsx",
+        "httpx",
+        "katana",
+        "recon",
+        "subfinder"
+      ],
+      "title": "Recon Methodology"
+    },
+    "tooling-2026": {
+      "category": "tooling",
+      "in_links": [
+        "ai-agentic-workflows",
+        "home",
+        "learning-path",
+        "nuclei-templates",
+        "recon-methodology"
+      ],
+      "out_links": [
+        "ai-agentic-workflows",
+        "recon-methodology"
+      ],
+      "tags": [
+        "agentic",
+        "mcp",
+        "nuclei",
+        "subfinder",
+        "tools"
+      ],
+      "title": "Tooling 2026"
+    },
+    "validation-skill": {
+      "category": "methodology",
+      "in_links": [
+        "ai-agentic-workflows"
+      ],
+      "out_links": [
+        "ai-agentic-workflows",
+        "recon-methodology"
+      ],
+      "tags": [
+        "skill",
+        "triage",
+        "validation"
+      ],
+      "title": "Validation Skill"
+    }
+  }
+}
